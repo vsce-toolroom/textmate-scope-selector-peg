@@ -1,0 +1,10 @@
+[package]
+name = "textmate_scope_selector_peg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+peg = "0.8.4"
+
+[profile.release]
+lto = true
