@@ -2,6 +2,11 @@
 name = "textmate-scope-selector-peg"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+authors = ["vsce-toolroom <git.vsce-toolroom@outlook.com>"]
+readme = "./README.md"
+description = "Textmate scope selector implementation as a PEG (parser grammar) in Rust"
+repository = "https://github.com/vsce-toolroom/textmate-scope-selector-peg"
 
 [dependencies]
 peg = "0.8.4"
