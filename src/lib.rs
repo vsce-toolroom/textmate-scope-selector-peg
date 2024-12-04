@@ -77,12 +77,3 @@ peg::parser! {
 pub fn parse(selector: &str) -> Result<Box<dyn matchers::Matcher>, ParseError<LineCol>> {
     return parser::parse(selector);
 }
-
-pub fn main() {
-    match parser::parse("L:a") {
-        Ok(selector) => {
-            println!("{:?}", selector.get_prefix("b"));
-        }
-        Err(err) => panic!("Parsing error for selector {}: {}", "L:a", err),
-    }
-}
