@@ -48,7 +48,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "textmate_scope_selector_peg"
+name = "textmate-scope-selector-peg"
 version = "0.1.0"
 dependencies = [
  "peg",
