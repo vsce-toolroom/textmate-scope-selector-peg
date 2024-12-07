@@ -105,7 +105,7 @@ impl PathMatcher {
 
 impl Matcher for PathMatcher {
     fn matches(&self, scopes: &str) -> bool {
-        let scopes_iter = scopes.split(&[' ', '\t']).peekable();
+        let scopes_iter = scopes.split(' ').peekable();
         let mut index = 0;
 
         if self.matchers.is_empty() {

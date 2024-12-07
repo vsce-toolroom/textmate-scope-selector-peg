@@ -434,7 +434,7 @@ fn test_path_others_descendant() {
         },
         MatchTestCase {
             selector: "a e".to_string(),
-            input: "a\tb\tc\td\te".to_string(),
+            input: "a b c d e".to_string(),
             expected: true,
         }
     ];
